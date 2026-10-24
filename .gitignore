@@ -1,3 +1,12 @@
 # Build folder and log file
 build/
 build.log
+
+# Python and editor artifacts
+__pycache__/
+.pytest_cache/
+.vscode/
+*.egg-info/
+.venv/
+venv/
+*.pyc

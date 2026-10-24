@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sr-stiffened-curved-girder-perforated-bcatalan"
+version = "0.1.0"
+description = "Genetic algorithm framework for buckling coefficient prediction in perforated curved girder steel sections."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+]
+
+[tool.setuptools]
+packages = ["sr_stiffened_curved_girder_perforated_bcatalan"]
